@@ -121,7 +121,7 @@ def fit(train_set,train_labels,dev_set,n_iter,batch_size=100):
             # print("begin:", begin)
             # print("end:", end)
             # print("input batch",input_batch)
-            # print("input label",input_labels)
+            # print("input label",input_labels)l
             loss.append(net.step(input_batch, input_labels))
             #print("losses:",losses)
 
